@@ -9,7 +9,7 @@ const Nearbyjobs = () => {
   const router = useRouter();
 
   const { data, isLoading, error } = useFetch('search', {
-    query: 'Indonesia',
+    query: 'US',
     num_pages: 1,
   });
 
